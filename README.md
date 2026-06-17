@@ -13,8 +13,8 @@ Fase 4 - Assistente Cardiológico Virtual com Visão Computacional
 Grupo 56
 
 ## Integrantes: 
-- <a href="https://www.linkedin.com/in/anacornachi/">Ana Cornachi</a>
-- <a href="https://www.linkedin.com/in/carlamaximo/">Carla Máximo</a>
+- <a href="https://www.linkedin.com/in/anacornachi/">Ana Cornachi - RM 564678</a>
+- <a href="https://www.linkedin.com/in/carlamaximo/">Carla Máximo - RM 564845</a>
 
 ## Professores:
 ### Tutor(a) 
@@ -56,6 +56,8 @@ Foi utilizado um dataset público contendo imagens de ECG organizadas nas seguin
 * Myocardial Infarction
 * Normal
 * Previous Myocardial Infarction
+
+Fonte do dataset: ECG Images Dataset of Cardiac Patients (Mendeley Data). (https://data.mendeley.com/datasets/gwbz3fsgp8/2)
 
 Total aproximado: 885 imagens.
 
@@ -118,6 +120,12 @@ CardioIA-Fase4/
 ├── relatorio/
 └── README.md
 ```
+
+## Arquivos do projeto
+
+- CardioIA_Fase4.ipynb: notebook desenvolvido no Google Colab.
+- Relatorio_CardioIA_Fase4.pdf: relatório técnico resumido da atividade.
+- prints/: imagens dos resultados, métricas e protótipo desenvolvido.
 
 ## Aviso
 

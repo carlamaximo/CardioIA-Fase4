@@ -82,7 +82,7 @@ Total aproximado: 885 imagens.
 
 ![Matriz ResNet50](prints/06_matriz_resnet50.png)
 
-## Protótipo
+### Protótipo
 
 ![Protótipo](prints/07_prototipo.png)
 

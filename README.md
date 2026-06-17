@@ -24,17 +24,29 @@ Grupo 56
 
 ## Sobre o Projeto
 
-O CardioIA é uma iniciativa voltada à aplicação de Inteligência Artificial na área da saúde. Nesta Fase 4, foi desenvolvido um protótipo de Assistente Cardiológico Virtual capaz de analisar imagens de ECG utilizando técnicas de Visão Computacional.
-
-A solução realiza o pré-processamento das imagens, treinamento de modelos de Deep Learning e classificação automática de exames simulados, apoiando a interpretação de padrões cardíacos.
+Este projeto foi desenvolvido para a disciplina Global Solution da FIAP e faz parte do projeto CardioIA: A Nova Era da Cardiologia Inteligente.
+Nesta fase, foi implementado um Assistente Cardiológico Virtual baseado em Visão Computacional para classificar imagens de ECG utilizando duas abordagens:
+* CNN treinada do zero
+* Transfer Learning com ResNet50
 
 ## Objetivos
 
 * Aplicar técnicas de pré-processamento em imagens médicas.
+* Separar os dados em treino, validação e teste.
 * Implementar uma CNN treinada do zero.
 * Implementar Transfer Learning utilizando ResNet50.
 * Avaliar o desempenho dos modelos utilizando métricas de classificação.
 * Apresentar os resultados em um protótipo simples e interpretável.
+
+## Tecnologias utilizadas
+
+* Python
+* TensorFlow
+* Keras
+* Scikit-Learn
+* Matplotlib
+* Seaborn
+* Google Colab
 
 ## Dataset
 
@@ -47,18 +59,32 @@ Foi utilizado um dataset público contendo imagens de ECG organizadas nas seguin
 
 Total aproximado: 885 imagens.
 
-## Tecnologias Utilizadas
+## Principais resultados
 
-* Python
-* TensorFlow / Keras
-* Scikit-Learn
-* NumPy
-* Pandas
-* Matplotlib
-* Seaborn
-* Google Colab
+| Modelo   | Accuracy |
+| -------- | -------- |
+| CNN      | 84%      |
+| ResNet50 | 39%      |
 
-## Arquiteturas Implementadas
+## Resultados da CNN
+
+![Acurácia CNN](prints/01_acuracia_cnn.png)
+
+![Loss CNN](prints/02_loss_cnn.png)
+
+## Matrizes de confusão
+
+### CNN
+
+![Matriz CNN](prints/05_matriz_cnn.png)
+
+### ResNet50
+
+![Matriz ResNet50](prints/06_matriz_resnet50.png)
+
+## Protótipo
+
+![Protótipo](prints/07_prototipo.png)
 
 ### CNN Treinada do Zero
 
@@ -95,4 +121,4 @@ CardioIA-Fase4/
 
 ## Aviso
 
-Este projeto possui finalidade exclusivamente acadêmica e educacional. Os resultados apresentados não devem ser utilizados para diagnóstico médico real.
+Este projeto possui finalidade acadêmica e experimental. Os resultados gerados pelo modelo não substituem avaliação médica profissional.
